@@ -51,8 +51,8 @@ header {
 
 /* Banner Section Styles Start */
 .banner-container {
-    height: 800px;
-    padding: 40px;
+  height: 800px;
+  padding: 40px;
   display: flex;
   align-items: center;
   background-image: url("/images/hero.png");
@@ -100,3 +100,180 @@ hr {
   font-weight: 400;
   line-height: 120%;
 }
+
+/* Mission Section Styles Start */
+.mission-container {
+  text-align: center;
+}
+.mission-title {
+  color: #309975;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mission-sub-title {
+  color: #575757;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mission-main {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 135px 255px;
+}
+.mission-left {
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-left: 75px;
+  padding-right: 100px;
+  background: rgba(239, 238, 180, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.petal {
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background: #dad873;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 17px;
+}
+.mission-left h4 {
+  color: #dad873;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mission-left p {
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.left-mission-card {
+  margin-top: 105px;
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-bottom: 15px;
+  margin-bottom: 80px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #dad873 0%, #ffca63 100%);
+}
+.left-mission-card h4 {
+  margin-bottom: 30px;
+  color: #20656f;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+}
+.left-mission-card p {
+  color: #20656f;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+.card-btn {
+  border-radius: 5px;
+  background: #f8bf88;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 12px 40px;
+  border-radius: 5px;
+  background: #dad873;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #575757;
+  border: none;
+}
+
+.mission-right {
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-left: 75px;
+  padding-right: 100px;
+  border-radius: 20px;
+  background: rgba(239, 238, 180, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.petal-right {
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  background: #ffcdc2;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 17px;
+}
+.mission-right h4 {
+  color: #f8bf88;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mission-right p {
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.right-mission-card {
+  margin-top: 105px;
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-bottom: 15px;
+  margin-bottom: 80px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #ffcdc2 0%, #f88888 100%);
+}
+.right-mission-card h4 {
+  margin-bottom: 30px;
+  color: #20656f;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+}
+.right-mission-card p {
+  color: #20656f;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+.right-card-btn {
+  border-radius: 5px;
+  background: #f8bf88;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 12px 40px;
+  border-radius: 5px;
+  background: #dad873;
+  font-weight: 600;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+
+/* Last Section */

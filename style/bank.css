@@ -51,16 +51,23 @@ header {
 
 /* Banner Section Styles Start */
 .banner-container {
-  height: 800px;
+  height: 750px;
   padding: 40px;
   display: flex;
   align-items: center;
-  background-image: url('/images/vector.png');
+  position: relative;
+  /* background-image: url('/images/hero.png');
   background-position: right bottom;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .banner-left {
   width: 50%;
+}
+
+.banner-container img{
+  right: -200px;
+  top: -111px;
+  position: absolute;
 }
 .banner-title {
   color: #fff;

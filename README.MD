@@ -1,8 +1,8 @@
-Lexus Car
+Paywise Online Bank
 A simple HTML & CSS website
 
 Live Link
-Hosted in Github -> [Lexus Car ](https://sujan-ahammad.github.io/simple-car-with-html-css/)
+Hosted in Github -> [Paywise Online Bank ](https://sujan-ahammad.github.io/Paywise-Bank-with-html-and-css/)
 
 Resources & Credits
 Icon -> [Font Awesome ](https://fontawesome.com/)
